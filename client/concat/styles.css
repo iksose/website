@@ -1,0 +1,346 @@
+.Bubba{
+	/*font-size: small;*/
+}
+
+/*for the alternate subrow...for whatever reason*/
+tr:nth-child(1n) p {
+	float:left !important;
+}
+
+.printTitle{
+	text-align: center;
+	font-weight: 800;
+}
+
+.printTable{
+	font-size: 10px;
+	padding-bottom: 10px;
+}
+
+.nonprintTable{
+	font-size: 12px;
+}
+
+.bold{
+	font-weight: 800;
+}
+
+#queryTable th:nth-child(10) {
+		background: #a5d1ff;
+		text-align: center;
+		display: none;
+}
+
+#queryTable td:nth-child(10) {
+		background: #a5d1ff;
+		text-align: center;
+		display: none;
+}
+
+/*.mainRows{
+	cursor: pointer;
+}*/
+
+tr:first-child th{
+	background-color: black;
+	color: white;
+}
+
+.print tr td:nth-child(1) {
+		background: #a5d1ff;
+		text-align: center;
+		display: none;
+}
+
+.print th:nth-child(1) {
+		background: #a5d1ff;
+		text-align: center;
+		display: none;
+}
+
+#queryTable{
+	font-size: 14px;
+}
+
+
+#queryTable tr td:nth-child(4) {
+		/*background: #a5d1ff;*/
+		text-align: center;
+}
+/*tr:nth-child(even) {background: #CCC}*/
+
+#queryTable tr.odd{
+	background: red;
+}
+
+tr:nth-child(2n) td{
+    /*position: relative;*/
+    /*left: 20px;*/
+		/*margin-left: 50px;*/
+		/*border: 0px !important;*/*/
+		empty-cells: hide !important;
+		border-collapse: separate;
+}
+
+tr:nth-child(2n) p{
+	float: left;
+	/*padding-right: 2%;*/
+	width: 15%;
+}
+
+.recSupply{
+	min-width: 25% !important;
+	/*padding-left: 1%;*/
+	/*max-width: 40% !important;*/
+	/*width: 35% !important;*/
+}
+
+.teal{
+	background-color: #5bc0de !important;
+	color: white;
+	padding: 10px;
+}
+
+.smaller{
+	width: 10% !important;
+}
+
+/*#queryTable th:nth-child(10) {
+		background: #a5d1ff;
+		text-align: center;
+}*/
+
+
+/*#queryTable tr td:nth-child(10) {
+    background: #a5d1ff;
+		text-align: center;
+		display: none;
+}
+
+
+
+#queryTable tr td:nth-child(13) {
+		/*background: #a5d1ff;*/
+		text-align: center;
+}
+
+#queryTable tr td:nth-child(14) {
+		background: #a5d1ff;
+		text-align: center;
+}*/
+
+.checkboxPrint{
+	/*display: none;*/
+}
+
+.print{
+	width: 90%
+}
+
+#printButtons{
+	float: left;
+	padding-left: 5%;
+}
+
+#tablePage{
+	float:right;
+	padding-right: 1%;
+}
+
+/*FILTERS*/
+
+#tableFilters{
+	float: left;
+}
+
+.filters{
+   display:inline-block;
+ /*background:transparent url('/_Layouts/PBA/PG/img/fancy/btn_filters.png') center top no-repeat;*/
+background:transparent url('/img/btn_filters.png') center top no-repeat;
+ height: 37px;
+ width: 71px;
+ margin-right: -8px;
+border-right-style: solid;
+border-width: 1px;
+border-color: white;
+}
+.source{
+ display:inline-block;
+ background:transparent url('/img/btn_rebated_ON.png') center top no-repeat;
+ height: 37px;
+ width: 117px;
+ margin-right: -6px;
+border-right-style: solid;
+border-width: 1px;
+border-color: white;
+cursor: pointer;
+}
+.sourceRed{
+ display:inline-block;
+ background:transparent url('/img/btn_rebated_OFF.png') center top no-repeat;
+ height: 37px;
+ width: 117px;
+ margin-right: -6px;
+border-right-style: solid;
+border-width: 1px;
+border-color: white;
+cursor: pointer;
+}
+.noncontract{
+ display:inline-block;
+ background:transparent url('/img/btn_non_rebated_ON.png') center top no-repeat;
+ height: 37px;
+ width: 138px;
+ margin-right: -7px;
+ border-right-style: solid;
+border-width: 1px;
+border-color: white;
+cursor: pointer;
+}
+.noncontractRed{
+ display:inline-block;
+ background:transparent url('/img/btn_non_rebated_OFF.png') center top no-repeat;
+ height: 37px;
+ width: 138px;
+ margin-right: -7px;
+ border-right-style: solid;
+border-width: 1px;
+border-color: white;
+cursor: pointer;
+}
+
+
+
+.endorsed{
+ display:inline-block;
+ background:transparent url('/img/btn_primaryWhole_ON.png') center top no-repeat;
+ height: 37px;
+ width: 200px;
+ margin-right: -6px;border-right-style: solid;
+border-width: 1px;
+border-color: white;
+cursor: pointer;
+}
+.endorsedRed{
+ display:inline-block;
+ background:transparent url('/img/btn_primaryWhole_OFF.png') center top no-repeat;
+ height: 37px;
+ width: 200px;
+ margin-right: -6px;
+ border-right-style: solid;
+border-width: 1px;
+border-color: white;
+cursor: pointer;
+}
+
+.fromPBA{
+  display:inline-block;
+ background:transparent url('/img/btn_pba_on.png') center top no-repeat;
+ height: 37px;
+ width: 130px;
+ margin-right: -7px;
+ border-right-style: solid;
+border-width: 1px;
+border-color: white;
+cursor: pointer;
+}
+
+.fromPBARed{
+  display:inline-block;
+ background:transparent url('/img/btn_pba_OFF.png') center top no-repeat;
+ height: 37px;
+ width: 130px;
+ margin-right: -7px;
+ border-right-style: solid;
+border-width: 1px;
+border-color: white;
+cursor: pointer;
+}
+
+#cachedImages{
+ display: none;
+}
+
+
+.toggles{
+	height: 30px;
+	float: left;
+	/*width: 100px;*/
+}
+
+
+
+/*TOGGLE SWITCH ANGULAR*/
+.switch {
+    border: 1px solid;
+    cursor: pointer;
+    display: inline-block;
+    text-align: left;
+    overflow: hidden;
+    line-height: 8px;
+    min-width: 100px;
+}
+
+.switch.disabled > div > span.knob {
+    background: #AAA;
+}
+
+.switch span {
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+    height: 100%;
+    line-height: 20px;
+    padding: 4px;
+    text-align: center;
+    width: 33%;
+    white-space: nowrap;
+
+    box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.switch > div {
+    position: relative;
+    width: 150%;
+}
+
+.switch .knob {
+    background: red;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    background-color: #f5f5f5;
+    width: 34%;
+    z-index: 100;
+}
+
+.switch .switch-on {
+    left: 0%;
+}
+
+.switch .switch-off {
+    left: -50%
+}
+
+.switch .swtich-left, .switch .switch-right {
+    z-index: 1;
+}
+
+.switch .switch-left {
+    color: #fff;
+    background: #5bc0de;
+}
+
+.switch .switch-right {
+    color: #333;
+    background: #f67159;
+}
+
+.switch-animate {
+    transition: left 0.5s;
+    -o-transition: left 0.5s;
+    -moz-transition: left 0.5s;
+    -webkit-transition: left 0.5s;
+}
